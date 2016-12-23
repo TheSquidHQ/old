@@ -206,6 +206,12 @@ This command used when user types /sLounge
 This command enables the user to join the Staff lobby.
 /slounge
 
+- RingCmd
+- (Youtuber, Owner)
+- This command used when user types /ring (in any lobby)
+This command enables the user to activate an invisible ring that pushes players of lower rank away from them. As a 5x5x5 block radius. Staff are exempt form this action.
+/ring
+
 
 3. - Rank System needs to be fixed and finished
 - Renamed ranks, new order, new prefixes.
