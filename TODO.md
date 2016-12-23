@@ -11,16 +11,20 @@
 This command used when user types /addcoins
 
 - AddTokensCmd
+- (Admin, Support, Owner)
 This command used when user types /addtokens
 
 - RemoveTokensCmd
+- (Admin, Support, Owner)
 This command used when user types /removetokens 
 
 - RemoveCoinsCmd
+- (Admin, Support, Owner)
 This command used when user types /removecoins 
 
 
 - BuildCmd
+- (Builder, Admin, Support, Owner, GM)
 -This command used when user types /build
 
 - CoinsCmd
@@ -112,6 +116,7 @@ This command used when user types /sLounge
  - Developer - &e&lDEV &f%username (3)
  - Admin - &4&lADMIN &f%username (4)
  - GM - &b&lGM &f%username (5)
+ - Builder - &2&lBUILDER &f%username
  - YouTuber - &c&lYOUTUBER &f%username (6)
  - VIP - &a&lVIP&f &7%username (7)
  - Recruit(default_rank) - &8RECRUIT &7%username (8)
