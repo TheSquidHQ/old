@@ -168,32 +168,53 @@ This command enables the user to open a GUI to select any choice of effects depe
 
 - StaffCmd
 - (@everyone)
-This command used when user types /staff 
+This command used when user types /staff
+This command enables the user to view a chat pop-up that shows what staff members are online, also showing which part of the network they are on.
+/staff
 
 - ListCmd
 - (@everyone)
 This command used when user types /list
+This command enables the user to view what players (Including staff, donors, and VIP's) in a ordorly list from staff on top, to the donors below the staff, to regular members.
+/list
 
 - FriendCmd(s)
 - (@everyone)
-This command used when user types /friend, friends, flist, friends list, friends add, friends remove. 
+This command used when user types /friend, friends, flist, friends list, friends add, friends remove.
+This command enables the user to add, remove, msg, view other players that are on the server. This should be done as chat-pop up.
+/friends (lists all friends that are online[green] and offline[red].)
+/friend add <player>
+/friend remove <player>
+/friend msg <player> or /fmsg <player>
 
 - PartyCmd
 - (@everyone)
-This command used when user types /party, party create, party disband, partychat, party members, party add.  
-
-- VipLoungeCmd
-- (Vip, GM, Admin, Support, Owner)
-This command used when user types /vip 
+This command used when user types /party, party create, party disband, partychat, party members, party add. 
+This command enables the user to create, disband, msg, and invite players and friends to a party to join them on servers. The creator of each part would be the only one who has
+access to choose games once players are in this such party. When the players are in a party they will be able to see purple names on tablist signafying the players in the party.
+There should be player limit of 4 people per party. Including the host.
+/party create <name>
+/party disband
+/party join <name of party> (Only if invited)
+/party leave (if player leaves the server it should automaticly remove player from party)
+/party invite <player>
+/party chat <msg> or /pmsg <on/off>
 
 - StaffLoungeCmd
 - (Builder, GM, Dev, Admin, Support, Owner)
 This command used when user types /sLounge
+This command enables the user to join the Staff lobby.
+/slounge
 
 
 3. - Rank System needs to be fixed and finished
+- Renamed ranks, new order, new prefixes.
+
 4. - Lobby plugin needs to be fixed and finished
+- Cosmetics, daily/monthly reward NPC's (rewards based on rank, and server votes). 
+
 5. - Minigames will need to be created soon after this completion
+- Minigames are needed, BudderSlap, PinkmanSlap, Walls, SurvivalGames, Skywars.
 
  - Change ranks to the following list according to order, the ranks in tab should be organized as players join and quit- 
  
