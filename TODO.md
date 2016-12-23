@@ -116,7 +116,7 @@ This command used when user types /sLounge
  - Developer - &e&lDEV &f%username (3)
  - Admin - &4&lADMIN &f%username (4)
  - GM - &b&lGM &f%username (5)
- - Builder - &2&lBUILDER &f%username
- - YouTuber - &c&lYOUTUBER &f%username (6)
- - VIP - &a&lVIP&f &7%username (7)
- - Recruit(default_rank) - &8RECRUIT &7%username (8)
+ - Builder - &2&lBUILDER &f%username (6)
+ - YouTuber - &c&lYOUTUBER &f%username (7)
+ - VIP - &a&lVIP&f &7%username (8)
+ - Recruit(default_rank) - &8RECRUIT &7%username (9)
