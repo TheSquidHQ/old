@@ -14,9 +14,6 @@ import net.md_5.bungee.api.ChatColor;
 
 public class SethomeCommand implements CommandExecutor {
 	
-	File file = new File("plugins/SurvivalEssentials", "homes.yml");
-	FileConfiguration cfg = YamlConfiguration.loadConfiguration(file);
-	
 			@Override
 			public boolean onCommand(CommandSender sender, Command cmd, String labe, String[] args) {
 		Player p = (Player) sender;
