@@ -18,9 +18,7 @@ import net.md_5.bungee.api.ChatColor;
 		public void onEnable() {
 			Bukkit.getServer().getLogger().info("SurvivalEssentials enabled.");
 			Bukkit.getServer().getLogger().info("Author: Daggle of Project Butter.");
-			File file = new File("plugins/SurvivalEssentials", "homes.yml");
-			@SuppressWarnings("unused")
-			FileConfiguration cfg = YamlConfiguration.loadConfiguration(file);
+
 			ConfigFile homes = new ConfigFile(this.getDataFolder(), "homes.yml");
 			homes.createConfig();
 		}
@@ -41,11 +39,11 @@ import net.md_5.bungee.api.ChatColor;
 		        if (args.length == 0) {
 						source.sendMessage(ChatColor.RED + "Please specify a player.");
 						return true;
-					}
-					if (target == null) {
-						source.sendMessage(ChatColor.RED + "Could not find player " + args[0] + "!");
-						return true;
-					}
+				}
+				if (target == null) {
+					source.sendMessage(ChatColor.RED + "Could not find player " + args[0] + "!");
+					return true;
+				}
 					source.teleport(target.getLocation());
 					return true;
 				}
