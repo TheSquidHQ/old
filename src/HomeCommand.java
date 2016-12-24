@@ -14,9 +14,6 @@ import org.bukkit.entity.Player;
 import net.md_5.bungee.api.ChatColor;
 
 public class HomeCommand implements CommandExecutor {
-	
-	File file = new File("plugins/SurvivalEssentials", "homes.yml");
-	FileConfiguration cfg = YamlConfiguration.loadConfiguration(file);
 
 	@Override
 	public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
