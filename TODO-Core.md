@@ -65,12 +65,6 @@ This command used when user types /Info
 This command enables the user to view a players status on the network, via time spent on server, number of punishments, coins, budder, rank.
 /Info <player> 
 
-- LoadWorldCmd
-- (Support, Owner)
-This command used when user types /Loadworld
-This command enables the user to load a world from a saved world file on the consol.
-/loadworld <nameofworld> 
-
 - MaintenanceCmd
 - (Admin, Support, Owner)
 This command used when user types /maintenance
@@ -86,15 +80,8 @@ This command enables the user to view the amount of ram, disk, and memory left o
 - PunishCmd
 - (GM, Admin, Support, Owner)
 This command used when user types /punish
-This command enables the user to select a player to punish in the event a player breaks the rules. This command when used opens up a GUI (chest box) on the users screen,
-enabling the user to view the actions aloud to be givin based on rank. There are 3 levels of punishment. Minor, Medium, Severe. On this GUI, the box will show with
-the players head, name, amount of time played, previous punishments from other staff members in according to when they were givin. Glass colored 
-green=Minor, yellow=Medium, red=Severe. For GM, only minor punishments can be selected, for Admin, only Minor and Medium can be selcted. For Support and Owner, any punishment
-can be seleted on the GUI. This GUI should also include a kick option for Admin+. There are two sections for the glass GUI section. A mute, and a ban.
-If someone is minorly muted, they will be muted for 6hours. If they are Mediumly muted, they will be muted for 12hours. If they are Severly muted, it will be permanant.
-This is also the same for the Ban section. If minor, they will be banned for 6hours, etc.
+Just command
 ONLY Admin+ can remove punishments from players name. When an admin removes the punishment the punishment should remain on the players history for future purposes.
-ONLY Support+ can pardon and erase any punishments from a players name. 
 
 
 - RankCmd
@@ -108,12 +95,6 @@ This command enables the user to change a users rank manually. User CANNOT chang
 This command used when user types /reload
 This command enables the user to reload the server they are currently in.
 /reload
-
-- RemoveTagCmd
-- (Dev, Admin, Support, Owner)
-This command used when user types /removetag
-This command enables the user to remove a tag from a player.
-/removetag <player> 
 
 - ReportCmd
 - (@everyone)
@@ -136,14 +117,6 @@ This commands used when user types /pm
 This command enables the user to Private message anyone across the network who is online.
 /PM <username> <msg>
 
-- TagCmd
-- (Admin, Dev, Support, Owner)
-This command used when user types /Tag
-This command enables the user to add a tag to a player. This command should RARELY be used, and would be used for special events only. This command does not give any user
-and new permissions. The user should stay the within the same ranked permissions as they were ranked last. This is just an admin toy to change prefixes.
-/tag <tag> example; /tag &fRank&r [Result in tablist= Rank TyFoxy]
-/tag <username> <tag>
-
 - UnloadWorldCmd
 - (Admin, Support, Owner)
 This command used when user types /UnloadWorld
@@ -156,12 +129,6 @@ This command used when user types /vanish
 This command enables the user to vanish on any part of the server at any time. This should not be used to cheat. This should be used for investigational purposes only.
 Cannot be used in-game unless user is spectating or dead.
 /vanish
-
-
-- WorldCmd
-- (n/a)
-This command used when user types /world
-This command is most likely not needed. Please contact Ty or Squid or info.
 
 - EffectsCmd
 - (Youtuber, Vip, GM, Builder, Dev, Support, Owner)
@@ -209,11 +176,6 @@ This command used when user types /sLounge
 This command enables the user to join the Staff lobby.
 /slounge
 
-- RingCmd
-- (Youtuber, Owner)
-- This command used when user types /ring (in any lobby)
-This command enables the user to activate an invisible ring that pushes players of lower rank away from them. As a 5x5x5 block radius. Staff are exempt form this action.
-/ring
 
 
 3. - Rank System needs to be fixed and finished
