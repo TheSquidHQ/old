@@ -1,0 +1,28 @@
+/fly
+- All donation ranks, Youtuber, And staff ranks have access to this, but it is automatically enabled.
+Game Selector
+Lobby Selector
+- Make this as a "Coming Soon" feature, we will 100% add this when we need multiple lobbies
+Profile Selector
+- This is what you click to access Settings, Punish History, and Stats
+    - Settings: Chat Messages, Private Messages, Flight, Player Visibility
+        - Chat Messaged: Enables or Disables global chat in lobbies
+        - Private Messages: Enables or Disables private messaging in lobbies
+        - Flight: Enables or Disables flying in hubs (on give access to Donators and up
+        - Player Visibility: Enables or Disables player visibility in lobbies
+   - Punish History: Shows all the punishments you have recieved; Warnings, Mutes, Kicks, and Bans
+   - Stats: This shows your rank, how many tokens and coins you have, how long ago was your first day played, and how long you been playing in total.
+Cosmetics Menu
+- Contains all cosmetics; Particles, special clothing, gadgets, etc.
+Scoreboard
+- Contains name of network at top, it shows your rank, how many coins and tokens you have, how many are online in the lobby, and how many are online in global server
+Tablist
+- Shows name of server at top, and IP of server at the bottom
+Join/Leave Message
+- Owners and default rank do not have join/Leave messages, everyone else does. The join message will be &2+ &7(player name). Leave message is &2- &7(player name)
+Join chat message
+- Something like this: http://prntscr.com/dnq5wh
+Boss bar announcement
+- Make is custom so we can change it whenever :P
+/spawn
+(If possible, Owners join automatically in Vanish)
