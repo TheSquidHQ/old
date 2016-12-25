@@ -1,4 +1,4 @@
-# [BudderCore] To-Do list
+# [BudderCore] TODO list
 
 ## Notice:
 ### Tags and Punishment-GUI have been removed from the list after TheSquidHQ's Request.
