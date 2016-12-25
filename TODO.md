@@ -1,7 +1,7 @@
-## To-Do list
+# To-Do list
 
-### Notice:
-#### Tags and Punishment-GUI have been removed from the list after TheSquidHQ's Request.
+## Notice:
+### Tags and Punishment-GUI have been removed from the list after TheSquidHQ's Request.
 
 1. Core finish up
 2. - Commands need to be finished
