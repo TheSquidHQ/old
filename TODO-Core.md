@@ -71,11 +71,11 @@ This command used when user types /Loadworld
 This command enables the user to load a world from a saved world file on the consol.
 /loadworld <nameofworld> 
 
-- MaintenanceCmd
-- (Admin, Support, Owner)
-This command used when user types /maintenance
-This command enables the user to enable maintenace mode on the server the user is currently on.
-/maintenace <on/off>
+#- MaintenanceCmd
+#- (Admin, Support, Owner)
+#This command used when user types /maintenance
+#This command enables the user to enable maintenace mode on the server the user is currently on.
+#/maintenace <on/off>
 
 - MemoryCmd
 - (Support, Owner)
