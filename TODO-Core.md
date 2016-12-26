@@ -34,11 +34,11 @@ This command enables the user to remove coins from a selected players balance ac
 /removecoins <player> <amount>
 
 
-- BuildCmd
-- (Builder, Admin, Support, Owner, GM)
--This command used when user types /build
-This command enables the user to change to gamemode c when in maintanence mode only. When the build command is used, it automaticly changes user to gamemode C, when sent again, it reverses back to gamemode A.
-/build
+#- BuildCmd
+#- (Builder, Admin, Support, Owner, GM)
+#-This command used when user types /build
+#This command enables the user to change to gamemode c when in maintanence mode only. When the build command is used, it automaticly changes user to gamemode C, when sent again, it reverses back to gamemode A.
+#/build
 
 - BalanceCmd
   (@everyone)
@@ -46,12 +46,12 @@ This command enables the user to change to gamemode c when in maintanence mode o
  This command enables the user to view the amount of tokens and coins they have.
 /balance
 
-- GameModeCmd
-- (Admin, Support, Owner)
-This command used when user types /gamemode
-This command enables the user to change gamemode.
-/gamemode <mode> 
-(Owner, Support Only -->) - /gamemode <player> <mode>
+#- GameModeCmd
+#- (Admin, Support, Owner)
+#This command used when user types /gamemode
+#This command enables the user to change gamemode.
+#/gamemode <mode> 
+#(Owner, Support Only -->) - /gamemode <player> <mode>
 
 - HelpCmd
 - (@everyone)
