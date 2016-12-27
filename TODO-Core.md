@@ -109,10 +109,10 @@ This command used when user types /reload
 This command enables the user to reload the server they are currently in.
 /reload
 
-- RemoveTagCmd
-- (Dev, Admin, Support, Owner)
-This command used when user types /removetag
-This command enables the user to remove a tag from a player.
+/- RemoveTagCmd
+/- (Dev, Admin, Support, Owner)
+/This command used when user types /removetag
+/This command enables the user to remove a tag from a player.
 /removetag <player> 
 
 - ReportCmd
@@ -136,13 +136,13 @@ This commands used when user types /pm
 This command enables the user to Private message anyone across the network who is online.
 /PM <username> <msg>
 
-- TagCmd
-- (Admin, Dev, Support, Owner)
-This command used when user types /Tag
-This command enables the user to add a tag to a player. This command should RARELY be used, and would be used for special events only. This command does not give any user
-and new permissions. The user should stay the within the same ranked permissions as they were ranked last. This is just an admin toy to change prefixes.
-/tag <tag> example; /tag &fRank&r [Result in tablist= Rank TyFoxy]
-/tag <username> <tag>
+/- TagCmd
+/- (Admin, Dev, Support, Owner)
+/This command used when user types /Tag
+/This command enables the user to add a tag to a player. This command should RARELY be used, and would be used for special events only. This command does not give any user
+/and new permissions. The user should stay the within the same ranked permissions as they were ranked last. This is just an admin toy to change prefixes.
+//tag <tag> example; /tag &fRank&r [Result in tablist= Rank TyFoxy]
+//tag <username> <tag>
 
 - UnloadWorldCmd
 - (Admin, Support, Owner)
