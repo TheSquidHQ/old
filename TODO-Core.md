@@ -10,16 +10,23 @@
 \\NOTICE ; List of ranks that have access to individual Cmds are listed below. Along with functionality of each Cmd. @everyone is meaning all ranks!\\
 
 ### AddCoinsCmd
-(Admin, Support, Owner) 
-This command used when user types /addcoins
-This command enables the user to add coins (One of our currency) to a selected players balance account.
-/addcoins <player> <amount>
+
+* (Admin, Support, Owner) 
+* This command used when user types /addcoins
+
+* This command enables the user to add coins (One of our currency) to a selected players balance account.
+
+* /addcoins <player> <amount>
 
 ### AddBudderCmd
-(Admin, Support, Owner)
-This command used when user types /addbudder
-This command enables the user to add tokens to a selected players balance account.
-/addbudder <player> <amount>
+
+* (Admin, Support, Owner)
+
+* This command used when user types /addbudder
+
+* This command enables the user to add tokens to a selected players balance account.
+
+* /addbudder <player> <amount>
 
 ### RemovebudderCmd
 (Admin, Support, Owner)
